@@ -1,0 +1,23 @@
+[
+    {
+        "model": "ezlifenubapi.genre",
+        "pk": 1,
+        "fields": {
+            "name": "Strategic"
+        }
+    },
+    {
+        "model": "ezlifenubapi.genre",
+        "pk": 2,
+        "fields": {
+            "name": "Sci-fi"
+        }
+    },
+    {
+        "model": "ezlifenubapi.genre",
+        "pk": 3,
+        "fields": {
+            "name": "Role-playing game"
+        }
+    }
+]
