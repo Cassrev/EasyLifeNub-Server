@@ -137,7 +137,7 @@ USE_TZ = True
 STATIC_URL = 'static/'
 
 # Absolute Path
-MEDIA_ROOT = BASE_DIR / 'uploads'
+MEDIA_ROOT = 'media'
 MEDIA_URL = '/media/'
 
 
