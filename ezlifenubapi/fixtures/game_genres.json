@@ -1,0 +1,122 @@
+[
+    {
+        "model": "ezlifenubapi.game_genre",
+        "pk": 1,
+        "fields": {
+            "game": 1,
+            "genre": 3
+        }
+    },
+    {
+        "model": "ezlifenubapi.game_genre",
+        "pk": 2,
+        "fields": {
+            "game": 1,
+            "genre": 5
+        }
+    },
+    {
+        "model": "ezlifenubapi.game_genre",
+        "pk": 3,
+        "fields": {
+            "game": 2,
+            "genre": 10
+        }
+    },
+    {
+        "model": "ezlifenubapi.game_genre",
+        "pk": 4,
+        "fields": {
+            "game": 2,
+            "genre": 1
+        }
+    },
+    {
+        "model": "ezlifenubapi.game_genre",
+        "pk": 5,
+        "fields": {
+            "game": 2,
+            "genre": 4
+        }
+    },
+    {
+        "model": "ezlifenubapi.game_genre",
+        "pk": 6,
+        "fields": {
+            "game": 9,
+            "genre": 6
+        }
+    },
+    {
+        "model": "ezlifenubapi.game_genre",
+        "pk": 7,
+        "fields": {
+            "game": 9,
+            "genre": 11
+        }
+    },
+    {
+        "model": "ezlifenubapi.game_genre",
+        "pk": 8,
+        "fields": {
+            "game": 9,
+            "genre": 9
+        }
+    },
+    {
+        "model": "ezlifenubapi.game_genre",
+        "pk": 9,
+        "fields": {
+            "game": 10,
+            "genre": 7
+        }
+    },
+    {
+        "model": "ezlifenubapi.game_genre",
+        "pk": 10,
+        "fields": {
+            "game": 10,
+            "genre": 11
+        }
+    },
+    {
+        "model": "ezlifenubapi.game_genre",
+        "pk": 11,
+        "fields": {
+            "game": 3,
+            "genre": 5
+        }
+    },
+    {
+        "model": "ezlifenubapi.game_genre",
+        "pk": 12,
+        "fields": {
+            "game": 8,
+            "genre": 3
+        }
+    },
+    {
+        "model": "ezlifenubapi.game_genre",
+        "pk": 13,
+        "fields": {
+            "game": 8,
+            "genre": 3
+        }
+    },
+    {
+        "model": "ezlifenubapi.game_genre",
+        "pk": 14,
+        "fields": {
+            "game": 4,
+            "genre": 4
+        }
+    },
+    {
+        "model": "ezlifenubapi.game_genre",
+        "pk": 15,
+        "fields": {
+            "game": 4,
+            "genre": 11
+        }
+    }
+]

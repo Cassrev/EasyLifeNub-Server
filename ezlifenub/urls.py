@@ -21,10 +21,11 @@ from django.conf.urls import include
 from django.urls import path
 from rest_framework import routers
 from ezlifenubapi.views import register_user, login_user
-# from ezlifenubapi.views import 
+from ezlifenubapi.views import GameView, GenreView, TicketView
 
 router = routers.DefaultRouter(trailing_slash=False)
-# router.register(r'games', GameView, 'game')
+router.register(r'games', GameView, 'game')
+router.register(r'tickets', TicketView, 'ticket')
 
 
 urlpatterns = [
@@ -32,7 +33,4 @@ urlpatterns = [
     path('login', login_user),
     path('', include(router.urls)),
     path('admin/', admin.site.urls),
-]
-
-if settings.DEBUG:
-    urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

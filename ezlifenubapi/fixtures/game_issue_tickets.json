@@ -1,0 +1,242 @@
+[
+    {
+        "model": "ezlifenubapi.issue_game_ticket",
+        "pk": 1,
+        "fields": {
+            "qa_id": 3,
+            "game": 1,
+            "issue_title": "Child in the Voyages mission",
+            "bug_description": "During testing of the specific 'Voyages' mission involving a child character, I encountered various issues related to character behavior and mission-specific problems. These issues should be addressed to ensure a smooth gaming experience.",
+            "expected_result": "The child character's behavior and mission-specific problems should be addressed and resolved to ensure a smooth and enjoyable gaming experience.",
+            "repeat_step": "Load the 'Voyages' mission titled 'Rescue in the Forest.' Interact with the child character, Timmy, near the forest entrance. While escorting Timmy, approach a river crossing point. Timmy may suddenly freeze in place and refuse to move further."
+        }
+    },
+    {
+        "model": "ezlifenubapi.issue_game_ticket",
+        "pk": 2,
+        "fields": {
+            "qa_id": 1,
+            "game": 5,
+            "issue_title": "Inventory Items Disappearing",
+            "bug_description": "While conducting inventory management tests, I observed instances where items disappeared from the player's inventory without any clear reason. This issue disrupts player progression and gameplay.",
+            "expected_result": "Inventory items should not disappear without a clear reason. Players should be able to retain their collected items consistently.",
+            "repeat_step": "Begin a new game as a treasure hunter. Collect valuable artifacts during your adventures. After acquiring three or more artifacts, access the game's underground cavern area. Upon entering the cavern, some of the collected artifacts may disappear from the inventory."
+        }
+    },
+    {
+        "model": "ezlifenubapi.issue_game_ticket",
+        "pk": 3,
+        "fields": {
+            "qa_id": 2,
+            "game": 7,
+            "issue_title": "Warrior is Finding The Party of Doom",
+            "bug_description": "In my playthrough, I noticed that a warrior character consistently found themselves in difficult encounters labeled as 'The Party of Doom' This suggests unusual AI behavior, which may require further investigation.",
+            "expected_result": "Investigate and address the unusual AI behavior where the warrior character consistently encounters difficult encounters labeled as 'The Party of Doom'.",
+            "repeat_step": "Load a save file where the warrior character, Sir Cedric, is part of your party. Begin exploring the Haunted Forest area. As you venture deeper into the forest, Sir Cedric may inexplicably charge into a hidden ambush, leading to a battle against the Party of Doom. Record the specific path taken and conditions leading to this encounter."
+        }
+    },
+    {
+        "model": "ezlifenubapi.issue_game_ticket",
+        "pk": 4,
+        "fields": {
+            "qa_id": 4,
+            "game": 10,
+            "issue_title": "Character Stuck in Terrain - Unable to Move",
+            "bug_description": "During environment interaction testing, I encountered a game-breaking bug where the player character became stuck within the game's terrain and was unable to move. This issue severely impedes gameplay.",
+            "expected_result": "The issue where the player character becomes stuck in the game's terrain should be resolved to allow for smooth and uninterrupted gameplay.",
+            "repeat_step": "Load a save file and enter the mysterious cave known as the Cursed Caverns. Proceed deeper into the cavern and reach the narrow bridge area. Attempt to cross the bridge and your character may become stuck mid-air, unable to move forward or backward."
+        }
+    },
+    {
+        "model": "ezlifenubapi.issue_game_ticket",
+        "pk": 5,
+        "fields": {
+            "qa_id": 1,
+            "game": 11,
+            "issue_title": "Enemy AI Behaving Unpredictably",
+            "bug_description": "While evaluating enemy AI behavior, I observed instances where the AI acted erratically and unpredictably, deviating from expected patterns. This bug makes combat encounters challenging to predict and strategize.",
+            "expected_result": "The erratic behavior of enemy AI should be investigated and corrected to ensure that combat encounters are predictable and fair for players.",
+            "repeat_step": "Load a save file within the ancient ruins of the Forgotten Temple. Engage in combat with a group of skeleton warriors guarding the temple's entrance. Some skeleton warriors may exhibit unpredictable behavior, alternating between aggressive attacks and moments of inaction."
+        }
+    },
+    {
+        "model": "ezlifenubapi.issue_game_ticket",
+        "pk": 6,
+        "fields": {
+            "qa_id": 2,
+            "game": 4,
+            "issue_title": "Missing Game Files - Error 404",
+            "bug_description": "Players are encountering an Error 404 message indicating missing game files. This issue prevents the game from launching or functioning correctly, requiring immediate attention to restore proper functionality.",
+            "expected_result": "The 'Error 404' message indicating missing game files should be addressed promptly, allowing players to launch and play the game without encountering this error.",
+            "repeat_step": "Launch the game and select the 'Start New Adventure' option. As the game loads, attempt to access a specific bonus DLC area called 'Mystic Realms.' At this point, you may encounter the 'Error 404' message, preventing access to the DLC content."
+        }
+    },
+    {
+        "model": "ezlifenubapi.issue_game_ticket",
+        "pk": 7,
+        "fields": {
+            "qa_id": 3,
+            "game": 8,
+            "issue_title": "Audio Problems - No Sound in Game",
+            "bug_description": "During audio testing, it became evident that there were severe audio problems, including the complete absence of sound and sound effects throughout the game. This issue significantly detracts from the gaming experience.",
+            "expected_result": "The severe audio problems, including the absence of sound and sound effects, should be resolved to restore the immersive gaming experience.",
+            "repeat_step": "Start a new game and proceed to the 'Abandoned Manor' location. Explore the manor while paying attention to audio cues and sound effects."
+        }
+    },
+    {
+        "model": "ezlifenubapi.issue_game_ticket",
+        "pk": 8,
+        "fields": {
+            "qa_id": 4,
+            "game": 9,
+            "issue_title": "Character Model T-Posing During Gameplay",
+            "bug_description": "While conducting character animation tests, I encountered a peculiar bug where the player character would enter a T-pose during gameplay, causing a noticeable and immersion-breaking anomaly.",
+            "expected_result": "The peculiar bug where the player character enters a T-pose during gameplay should be addressed and fixed to prevent immersion-breaking anomalies.",
+            "repeat_step": "Load a save file and enter the 'Mechanical Factory' level. During gameplay, while engaging in combat with robotic enemies, your character may suddenly transition into a T-pose."
+        }
+    },
+    {
+        "model": "ezlifenubapi.issue_game_ticket",
+        "pk": 9,
+        "fields": {
+            "qa_id": 1,
+            "game": 2,
+            "issue_title": "Quest Marker Missing on Map",
+            "bug_description": "In my quest tracking tests, I observed instances where quest markers failed to appear on the in-game map as expected. This bug makes it difficult for players to track and complete their objectives.",
+            "expected_result": "Quest markers should consistently appear on the in-game map as expected to assist players in tracking and completing objectives.",
+            "repeat_step": "Begin the 'Lost Relics' quest by accepting it from the town's quest board. Progress through the quest objectives and reach the point where you need to retrieve a hidden relic. Open the in-game map to find that the quest marker is absent, making it challenging to locate the relic's hidden spot."
+        }
+    },
+    {
+        "model": "ezlifenubapi.issue_game_ticket",
+        "pk": 10,
+        "fields": {
+            "qa_id": 4,
+            "game": 8,
+            "issue_title": "Game Menu Navigation Issues",
+            "bug_description": "While testing the game's menus, I identified multiple navigation issues, including delayed responses, unexpected button inputs, and menu design inefficiencies. These problems impact the user interface and overall usability.",
+            "expected_result": "Navigation issues within the game's menus, including delayed responses and unexpected button inputs, should be resolved to improve the user interface and overall usability.",
+            "repeat_step": "Access the game's main menu and navigate to the Inventory submenu. Attempt to switch between different equipment categories, such as weapons and armor. While navigating, you may encounter delays in menu response, leading to unintended equipment selections."
+        }
+    },
+    {
+        "model": "ezlifenubapi.issue_game_ticket",
+        "pk": 11,
+        "fields": {
+            "qa_id": 3,
+            "game": 7,
+            "issue_title": "Invisible Walls Blocking Progress",
+            "bug_description": "During level design testing, I encountered invisible walls in several areas that prevented the player character from progressing naturally. This issue creates confusion and hinders gameplay.",
+            "expected_result": "The presence of invisible walls that hinder player progress should be addressed to ensure that players can navigate the game world without confusion or impediments.",
+            "repeat_step": "Start a new game and proceed to the Enchanted Forest area. While exploring the forest, reach the point where you approach a beautiful waterfall. Attempt to cross behind the waterfall, and you may encounter an invisible wall preventing passage."
+        }
+    },
+    {
+        "model": "ezlifenubapi.issue_game_ticket",
+        "pk": 12,
+        "fields": {
+            "qa_id": 2,
+            "game": 6,
+            "issue_title": "Map Glitches - Floating Objects or Terrain",
+            "bug_description": "While thoroughly exploring the game's world during testing, I came across a significant issue involving map glitches. Specifically, I noticed instances where objects and terrain elements were floating in mid-air or not properly aligned with the game world's geometry. These map glitches not only break immersion but also have the potential to affect gameplay, as players may become stuck or encounter unexpected obstacles. Addressing these map glitches is crucial to ensure a seamless and enjoyable gaming experience.",
+            "expected_result": "Address and correct map glitches where objects and terrain elements are floating or misaligned to maintain the game's immersion and prevent gameplay disruptions.",
+            "repeat_step": "Load a save file and enter the Celestial Observatory located atop a mountain. As you explore the observatory, reach the telescope platform with a panoramic view. Observe that certain star charts and equipment appear to be floating in mid-air."
+        }
+    },
+    {
+        "model": "ezlifenubapi.issue_game_ticket",
+        "pk": 13,
+        "fields": {
+            "qa_id": 4,
+            "game": 10,
+            "issue_title": "NPCs Getting Stuck in Environmental Objects",
+            "bug_description": "While evaluating NPC behavior, I found that NPCs were frequently getting stuck in various environmental objects, such as walls and terrain. This issue disrupts quest progression and immersion.",
+            "expected_result": "The issue where NPCs frequently get stuck in environmental objects, such as walls and terrain, should be investigated and resolved to ensure seamless quest progression and immersion.",
+            "repeat_step": "Begin the City Under Siege quest in the besieged city. As you advance through the city streets, you may encounter a group of NPCs attempting to flee. Observe that some of these NPCs become stuck in barricades and walls."
+        }
+    },
+    {
+        "model": "ezlifenubapi.issue_game_ticket",
+        "pk": 14,
+        "fields": {
+            "qa_id": 1,
+            "game": 4,
+            "issue_title": "Game Crashes When Alt-Tabbing",
+            "bug_description": "When testing the game's compatibility with Alt-Tabbing, I encountered a recurring bug where the game consistently crashed upon attempting to switch to another application. This issue disrupts multitasking and overall usability.",
+            "expected_result": "Investigate and address the recurring bug where the game crashes upon attempting to Alt-Tab, allowing players to switch between applications without encountering crashes.",
+            "repeat_step": "Launch the game and start a new single-player campaign. Play through the introductory level until you reach a climactic cinematic sequence. Attempt to Alt-Tab to check your email during the cinematic. At this point, the game may abruptly crash to the desktop."
+        }
+    },
+    {
+        "model": "ezlifenubapi.issue_game_ticket",
+        "pk": 15,
+        "fields": {
+            "qa_id": 3,
+            "game": 8,
+            "issue_title": "Unable to Change Language Settings",
+            "bug_description": "During language setting testing, I discovered a critical issue where players were unable to change the in-game language settings. This bug restricts accessibility and negatively impacts the gaming experience for non-native language speakers.",
+            "expected_result": "The critical issue preventing players from changing in-game language settings should be resolved, ensuring accessibility for non-native language speakers.",
+            "repeat_step": "Launch the game and access the Options menu from the main screen. Navigate to the Language Settings submenu. Attempt to change the in-game language from English to Spanish. Despite selecting Spanish, the game's language remains in English."
+        }
+    },
+    {
+        "model": "ezlifenubapi.issue_game_ticket",
+        "pk": 16,
+        "fields": {
+            "qa_id": 2,
+            "game": 3,
+            "issue_title": "Sudden Frame Rate Spikes During Combat",
+            "bug_description": "While testing combat scenarios, I observed sudden and severe frame rate spikes that occurred unpredictably. These spikes significantly disrupt gameplay, especially during intense combat encounters.",
+            "expected_result": "Investigate and address sudden frame rate spikes during combat encounters to ensure smooth and uninterrupted gameplay, especially during intense combat moments.",
+            "repeat_step": "Start a new game and engage in combat encounters in the Dark Forest region. During intense combat scenarios, when facing multiple enemy groups, sudden frame rate spikes may occur."
+        }
+    },
+    {
+        "model": "ezlifenubapi.issue_game_ticket",
+        "pk": 17,
+        "fields": {
+            "qa_id": 2,
+            "game": 7,
+            "issue_title": "Dialogue Audio Volume Inconsistencies",
+            "bug_description": "While conducting audio testing, I noticed inconsistent audio volume levels during in-game dialogues. Some character conversations were excessively quiet, while others were overly loud, leading to an uneven audio experience and potential immersion issues.",
+            "expected_result": "Resolve inconsistent audio volume levels during in-game dialogues to provide a balanced and immersive audio experience for players.",
+            "repeat_step": "Load a save file and engage in a dialogue with a key non-player character (NPC) named Captain Rollins. During the conversation, note that Captain Rollins' voice is barely audible. Exit the dialogue and interact with another NPC, Trader Alice. In this conversation, Trader Alice's voice is excessively loud."
+        }
+    },
+    {
+        "model": "ezlifenubapi.issue_game_ticket",
+        "pk": 18,
+        "fields": {
+            "qa_id": 4,
+            "game": 9,
+            "issue_title": "Unable to Create or Join Guilds/Clans",
+            "bug_description": "When attempting to create or join guilds or clans within the game, I repeatedly encountered a bug that prevented successful creation or membership. This issue inhibits players from engaging in cooperative gameplay, which is a key feature of the game.",
+            "expected_result": "Investigate and resolve the bug preventing players from creating or joining guilds/clans to facilitate cooperative gameplay.",
+            "repeat_step": "Start a new game and progress through the tutorial.Reach a point where you can access the Guilds & Clans feature from the main menu Attempt to create a new guild or clan called Mystic Knights. After providing all required information, the game may display an error message preventing the creation."
+        }
+    },
+    {
+        "model": "ezlifenubapi.issue_game_ticket",
+        "pk": 19,
+        "fields": {
+            "qa_id": 4,
+            "game": 9,
+            "issue_title": "Character Falling into Endless Pit",
+            "bug_description": "During my testing, I stumbled upon a significant bug where the player character fell into an endless pit when navigating certain areas of the game. This issue results in an unplayable state and disrupts the overall experience.",
+            "expected_result": "Address and fix the bug causing the player character to fall into an endless pit during certain areas of the game, ensuring a playable and enjoyable experience.",
+            "repeat_step": "Load a save file and enter the Cursed Abyss level, known for its treacherous chasms. While attempting to cross a narrow bridge over a chasm, your character may suddenly fall through the bridge and into an endless pit."
+        }
+    },
+    {
+        "model": "ezlifenubapi.issue_game_ticket",
+        "pk": 20,
+        "fields": {
+            "qa_id": 1,
+            "game": 10,
+            "issue_title": "Character Losing Progression Data",
+            "bug_description": "While testing the game, I encountered a critical issue where character progression data, including experience points, unlocked abilities, and inventory items, would occasionally reset or disappear. This bug severely impacts gameplay and player progression.",
+            "expected_result": "Investigate and resolve the critical issue of character progression data loss, ensuring that players can maintain their progress, experience points, abilities, and inventory items reliably.",
+            "repeat_step": "Start a new game and reach the Fateful Encounter quest. Progress through the quest, gaining experience points and unlocking new abilities. Save the game and exit. Upon returning to the game, load the saved file, and you may find that your character's experience points have reset, and abilities and inventory items are missing."
+        }
+    }
+]

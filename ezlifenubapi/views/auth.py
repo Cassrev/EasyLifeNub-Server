@@ -10,11 +10,6 @@ from rest_framework.response import Response
 @api_view(['POST'])
 @permission_classes([AllowAny])
 def login_user(request):
-    '''Handles the authentication of a user
-
-    Method arguments:
-    request -- The full HTTP request object
-    '''
     email = request.data['email']
     password = request.data['password']
 
@@ -29,19 +24,12 @@ def login_user(request):
         }
         return Response(data)
     else:
-        # Bad login details were provided. So we can't log the user in.
         data = { 'valid': False }
         return Response(data)
 
 @api_view(['POST'])
 @permission_classes([AllowAny])
 def register_user(request):
-    '''Handles the creation of a new user for authentication
-
-    Method arguments:
-    request -- The full HTTP request object
-    '''
-
     email = request.data.get('email')
     password = request.data.get('password')
 

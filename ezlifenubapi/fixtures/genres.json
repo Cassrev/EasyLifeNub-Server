@@ -17,7 +17,105 @@
         "model": "ezlifenubapi.genre",
         "pk": 3,
         "fields": {
-            "name": "Role-playing game"
+            "name": "Role-playing"
+        }
+    },
+    {
+        "model": "ezlifenubapi.genre",
+        "pk": 4,
+        "fields": {
+            "name": "Survival"
+        }
+    },
+    {
+        "model": "ezlifenubapi.genre",
+        "pk": 5,
+        "fields": {
+            "name": "Shooter"
+        }
+    },
+    {
+        "model": "ezlifenubapi.genre",
+        "pk": 6,
+        "fields": {
+            "name": "Simulation"
+        }
+    },
+    {
+        "model": "ezlifenubapi.genre",
+        "pk": 7,
+        "fields": {
+            "name": "Sports"
+        }
+    },
+    {
+        "model": "ezlifenubapi.genre",
+        "pk": 8,
+        "fields": {
+            "name": "Adventure"
+        }
+    },
+    {
+        "model": "ezlifenubapi.genre",
+        "pk": 9,
+        "fields": {
+            "name": "Sandbox"
+        }
+    },
+    {
+        "model": "ezlifenubapi.genre",
+        "pk": 10,
+        "fields": {
+            "name": "Puzzle"
+        }
+    },
+    {
+        "model": "ezlifenubapi.genre",
+        "pk": 11,
+        "fields": {
+            "name": "Cooking"
+        }
+    },
+    {
+        "model": "ezlifenubapi.genre",
+        "pk": 12,
+        "fields": {
+            "name": "Painting"
+        }
+    },
+    {
+        "model": "ezlifenubapi.genre",
+        "pk": 13,
+        "fields": {
+            "name": "Multiplayer"
+        }
+    },
+    {
+        "model": "ezlifenubapi.genre",
+        "pk": 14,
+        "fields": {
+            "name": "Dancing"
+        }
+    },
+    {
+        "model": "ezlifenubapi.genre",
+        "pk": 15,
+        "fields": {
+            "name": "City Builder"
+        }
+    },
+    {
+        "model": "ezlifenubapi.genre",
+        "pk": 16,
+        "fields": {
+            "name": "Horror"
+        }
+    },
+    {
+        "model": "ezlifenubapi.genre",
+        "pk": 17,
+        "fields": {
+            "name": "Platformer"
         }
     }
 ]
