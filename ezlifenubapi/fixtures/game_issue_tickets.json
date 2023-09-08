@@ -1,6 +1,6 @@
 [
     {
-        "model": "ezlifenubapi.issue_game_ticket",
+        "model": "ezlifenubapi.IssueGameTicket",
         "pk": 1,
         "fields": {
             "qa_id": 3,
@@ -12,7 +12,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.issue_game_ticket",
+        "model": "ezlifenubapi.IssueGameTicket",
         "pk": 2,
         "fields": {
             "qa_id": 1,
@@ -24,7 +24,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.issue_game_ticket",
+        "model": "ezlifenubapi.IssueGameTicket",
         "pk": 3,
         "fields": {
             "qa_id": 2,
@@ -36,7 +36,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.issue_game_ticket",
+        "model": "ezlifenubapi.IssueGameTicket",
         "pk": 4,
         "fields": {
             "qa_id": 4,
@@ -48,7 +48,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.issue_game_ticket",
+        "model": "ezlifenubapi.IssueGameTicket",
         "pk": 5,
         "fields": {
             "qa_id": 1,
@@ -60,7 +60,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.issue_game_ticket",
+        "model": "ezlifenubapi.IssueGameTicket",
         "pk": 6,
         "fields": {
             "qa_id": 2,
@@ -72,7 +72,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.issue_game_ticket",
+        "model": "ezlifenubapi.IssueGameTicket",
         "pk": 7,
         "fields": {
             "qa_id": 3,
@@ -84,7 +84,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.issue_game_ticket",
+        "model": "ezlifenubapi.IssueGameTicket",
         "pk": 8,
         "fields": {
             "qa_id": 4,
@@ -96,7 +96,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.issue_game_ticket",
+        "model": "ezlifenubapi.IssueGameTicket",
         "pk": 9,
         "fields": {
             "qa_id": 1,
@@ -108,7 +108,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.issue_game_ticket",
+        "model": "ezlifenubapi.IssueGameTicket",
         "pk": 10,
         "fields": {
             "qa_id": 4,
@@ -120,7 +120,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.issue_game_ticket",
+        "model": "ezlifenubapi.IssueGameTicket",
         "pk": 11,
         "fields": {
             "qa_id": 3,
@@ -132,7 +132,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.issue_game_ticket",
+        "model": "ezlifenubapi.IssueGameTicket",
         "pk": 12,
         "fields": {
             "qa_id": 2,
@@ -144,7 +144,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.issue_game_ticket",
+        "model": "ezlifenubapi.IssueGameTicket",
         "pk": 13,
         "fields": {
             "qa_id": 4,
@@ -156,7 +156,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.issue_game_ticket",
+        "model": "ezlifenubapi.IssueGameTicket",
         "pk": 14,
         "fields": {
             "qa_id": 1,
@@ -168,7 +168,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.issue_game_ticket",
+        "model": "ezlifenubapi.IssueGameTicket",
         "pk": 15,
         "fields": {
             "qa_id": 3,
@@ -180,7 +180,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.issue_game_ticket",
+        "model": "ezlifenubapi.IssueGameTicket",
         "pk": 16,
         "fields": {
             "qa_id": 2,
@@ -192,7 +192,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.issue_game_ticket",
+        "model": "ezlifenubapi.IssueGameTicket",
         "pk": 17,
         "fields": {
             "qa_id": 2,
@@ -204,7 +204,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.issue_game_ticket",
+        "model": "ezlifenubapi.IssueGameTicket",
         "pk": 18,
         "fields": {
             "qa_id": 4,
@@ -216,7 +216,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.issue_game_ticket",
+        "model": "ezlifenubapi.IssueGameTicket",
         "pk": 19,
         "fields": {
             "qa_id": 4,
@@ -228,7 +228,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.issue_game_ticket",
+        "model": "ezlifenubapi.IssueGameTicket",
         "pk": 20,
         "fields": {
             "qa_id": 1,
