@@ -3,7 +3,7 @@
         "model": "ezlifenubapi.IssueGameTicket",
         "pk": 1,
         "fields": {
-            "qa_id": 3,
+            "qa": 3,
             "game": 1,
             "issue_title": "Child in the Voyages mission",
             "bug_description": "During testing of the specific 'Voyages' mission involving a child character, I encountered various issues related to character behavior and mission-specific problems. These issues should be addressed to ensure a smooth gaming experience.",
@@ -15,7 +15,7 @@
         "model": "ezlifenubapi.IssueGameTicket",
         "pk": 2,
         "fields": {
-            "qa_id": 1,
+            "qa": 1,
             "game": 5,
             "issue_title": "Inventory Items Disappearing",
             "bug_description": "While conducting inventory management tests, I observed instances where items disappeared from the player's inventory without any clear reason. This issue disrupts player progression and gameplay.",
@@ -27,7 +27,7 @@
         "model": "ezlifenubapi.IssueGameTicket",
         "pk": 3,
         "fields": {
-            "qa_id": 2,
+            "qa": 2,
             "game": 7,
             "issue_title": "Warrior is Finding The Party of Doom",
             "bug_description": "In my playthrough, I noticed that a warrior character consistently found themselves in difficult encounters labeled as 'The Party of Doom' This suggests unusual AI behavior, which may require further investigation.",
@@ -39,7 +39,7 @@
         "model": "ezlifenubapi.IssueGameTicket",
         "pk": 4,
         "fields": {
-            "qa_id": 4,
+            "qa": 4,
             "game": 10,
             "issue_title": "Character Stuck in Terrain - Unable to Move",
             "bug_description": "During environment interaction testing, I encountered a game-breaking bug where the player character became stuck within the game's terrain and was unable to move. This issue severely impedes gameplay.",
@@ -51,7 +51,7 @@
         "model": "ezlifenubapi.IssueGameTicket",
         "pk": 5,
         "fields": {
-            "qa_id": 1,
+            "qa": 1,
             "game": 11,
             "issue_title": "Enemy AI Behaving Unpredictably",
             "bug_description": "While evaluating enemy AI behavior, I observed instances where the AI acted erratically and unpredictably, deviating from expected patterns. This bug makes combat encounters challenging to predict and strategize.",
@@ -63,7 +63,7 @@
         "model": "ezlifenubapi.IssueGameTicket",
         "pk": 6,
         "fields": {
-            "qa_id": 2,
+            "qa": 2,
             "game": 4,
             "issue_title": "Missing Game Files - Error 404",
             "bug_description": "Players are encountering an Error 404 message indicating missing game files. This issue prevents the game from launching or functioning correctly, requiring immediate attention to restore proper functionality.",
@@ -75,7 +75,7 @@
         "model": "ezlifenubapi.IssueGameTicket",
         "pk": 7,
         "fields": {
-            "qa_id": 3,
+            "qa": 3,
             "game": 8,
             "issue_title": "Audio Problems - No Sound in Game",
             "bug_description": "During audio testing, it became evident that there were severe audio problems, including the complete absence of sound and sound effects throughout the game. This issue significantly detracts from the gaming experience.",
@@ -87,7 +87,7 @@
         "model": "ezlifenubapi.IssueGameTicket",
         "pk": 8,
         "fields": {
-            "qa_id": 4,
+            "qa": 4,
             "game": 9,
             "issue_title": "Character Model T-Posing During Gameplay",
             "bug_description": "While conducting character animation tests, I encountered a peculiar bug where the player character would enter a T-pose during gameplay, causing a noticeable and immersion-breaking anomaly.",
@@ -99,7 +99,7 @@
         "model": "ezlifenubapi.IssueGameTicket",
         "pk": 9,
         "fields": {
-            "qa_id": 1,
+            "qa": 1,
             "game": 2,
             "issue_title": "Quest Marker Missing on Map",
             "bug_description": "In my quest tracking tests, I observed instances where quest markers failed to appear on the in-game map as expected. This bug makes it difficult for players to track and complete their objectives.",
@@ -111,7 +111,7 @@
         "model": "ezlifenubapi.IssueGameTicket",
         "pk": 10,
         "fields": {
-            "qa_id": 4,
+            "qa": 4,
             "game": 8,
             "issue_title": "Game Menu Navigation Issues",
             "bug_description": "While testing the game's menus, I identified multiple navigation issues, including delayed responses, unexpected button inputs, and menu design inefficiencies. These problems impact the user interface and overall usability.",
@@ -123,7 +123,7 @@
         "model": "ezlifenubapi.IssueGameTicket",
         "pk": 11,
         "fields": {
-            "qa_id": 3,
+            "qa": 3,
             "game": 7,
             "issue_title": "Invisible Walls Blocking Progress",
             "bug_description": "During level design testing, I encountered invisible walls in several areas that prevented the player character from progressing naturally. This issue creates confusion and hinders gameplay.",
@@ -135,7 +135,7 @@
         "model": "ezlifenubapi.IssueGameTicket",
         "pk": 12,
         "fields": {
-            "qa_id": 2,
+            "qa": 2,
             "game": 6,
             "issue_title": "Map Glitches - Floating Objects or Terrain",
             "bug_description": "While thoroughly exploring the game's world during testing, I came across a significant issue involving map glitches. Specifically, I noticed instances where objects and terrain elements were floating in mid-air or not properly aligned with the game world's geometry. These map glitches not only break immersion but also have the potential to affect gameplay, as players may become stuck or encounter unexpected obstacles. Addressing these map glitches is crucial to ensure a seamless and enjoyable gaming experience.",
@@ -147,7 +147,7 @@
         "model": "ezlifenubapi.IssueGameTicket",
         "pk": 13,
         "fields": {
-            "qa_id": 4,
+            "qa": 4,
             "game": 10,
             "issue_title": "NPCs Getting Stuck in Environmental Objects",
             "bug_description": "While evaluating NPC behavior, I found that NPCs were frequently getting stuck in various environmental objects, such as walls and terrain. This issue disrupts quest progression and immersion.",
@@ -159,7 +159,7 @@
         "model": "ezlifenubapi.IssueGameTicket",
         "pk": 14,
         "fields": {
-            "qa_id": 1,
+            "qa": 1,
             "game": 4,
             "issue_title": "Game Crashes When Alt-Tabbing",
             "bug_description": "When testing the game's compatibility with Alt-Tabbing, I encountered a recurring bug where the game consistently crashed upon attempting to switch to another application. This issue disrupts multitasking and overall usability.",
@@ -171,7 +171,7 @@
         "model": "ezlifenubapi.IssueGameTicket",
         "pk": 15,
         "fields": {
-            "qa_id": 3,
+            "qa": 3,
             "game": 8,
             "issue_title": "Unable to Change Language Settings",
             "bug_description": "During language setting testing, I discovered a critical issue where players were unable to change the in-game language settings. This bug restricts accessibility and negatively impacts the gaming experience for non-native language speakers.",
@@ -183,7 +183,7 @@
         "model": "ezlifenubapi.IssueGameTicket",
         "pk": 16,
         "fields": {
-            "qa_id": 2,
+            "qa": 2,
             "game": 3,
             "issue_title": "Sudden Frame Rate Spikes During Combat",
             "bug_description": "While testing combat scenarios, I observed sudden and severe frame rate spikes that occurred unpredictably. These spikes significantly disrupt gameplay, especially during intense combat encounters.",
@@ -195,7 +195,7 @@
         "model": "ezlifenubapi.IssueGameTicket",
         "pk": 17,
         "fields": {
-            "qa_id": 2,
+            "qa": 2,
             "game": 7,
             "issue_title": "Dialogue Audio Volume Inconsistencies",
             "bug_description": "While conducting audio testing, I noticed inconsistent audio volume levels during in-game dialogues. Some character conversations were excessively quiet, while others were overly loud, leading to an uneven audio experience and potential immersion issues.",
@@ -207,7 +207,7 @@
         "model": "ezlifenubapi.IssueGameTicket",
         "pk": 18,
         "fields": {
-            "qa_id": 4,
+            "qa": 4,
             "game": 9,
             "issue_title": "Unable to Create or Join Guilds/Clans",
             "bug_description": "When attempting to create or join guilds or clans within the game, I repeatedly encountered a bug that prevented successful creation or membership. This issue inhibits players from engaging in cooperative gameplay, which is a key feature of the game.",
@@ -219,7 +219,7 @@
         "model": "ezlifenubapi.IssueGameTicket",
         "pk": 19,
         "fields": {
-            "qa_id": 4,
+            "qa": 4,
             "game": 9,
             "issue_title": "Character Falling into Endless Pit",
             "bug_description": "During my testing, I stumbled upon a significant bug where the player character fell into an endless pit when navigating certain areas of the game. This issue results in an unplayable state and disrupts the overall experience.",
@@ -231,7 +231,7 @@
         "model": "ezlifenubapi.IssueGameTicket",
         "pk": 20,
         "fields": {
-            "qa_id": 1,
+            "qa": 1,
             "game": 10,
             "issue_title": "Character Losing Progression Data",
             "bug_description": "While testing the game, I encountered a critical issue where character progression data, including experience points, unlocked abilities, and inventory items, would occasionally reset or disappear. This bug severely impacts gameplay and player progression.",

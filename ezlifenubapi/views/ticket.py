@@ -8,57 +8,65 @@ from ezlifenubapi.models import Game, IssueGameTicket
 
 class TicketView(ViewSet):
     def retrieve(self, request, pk):
-        ticket = Event.objects.get(pk=pk)
+        ticket = IssueGameTicket.objects.get(pk=pk)
         serializer = GameTicketSerializer(ticket)
         return Response(serializer.data)
 
     def list(self, request):
-        events = Event.objects.all()
+        tickets = IssueGameTicket.objects.all()
 
-        if "game" in request.query_params:
-            game_id = request.query_params['game']
-            events = events.filter(game_id=game_id)
+        # if "game" in request.query_params:
+        #     game_id = request.query_params['game']
+        #     events = events.filter(game_id=game_id)
 
-        serializer = GameTicketSerializer(events, many=True)
+        serializer = GameTicketSerializer(tickets, many=True)
         return Response(serializer.data)
 
     def create(self, request):
-        gamer = Gamer.objects.get(user=request.auth.user)
+        token = request.auth
+
+        qa = User.objects.get(auth_token=token)
         game = Game.objects.get(pk=request.data["game"])
 
-        event = Event.objects.create(
-            host=gamer,
+        ticket = IssueGameTicket.objects.create(
+            qa=qa,
             game=game,
-            event_name=request.data["event_name"]
+            issue_title=request.data["issue_title"],
+            bug_description=request.data["bug_description"],
+            expected_result=request.data["expected_result"],
+            repeat_step=request.data["repeat_step"]
         )
-        serializer = GameTicketSerializer(event)
+        serializer = GameTicketSerializer(ticket)
         return Response(serializer.data)
 
     def update(self, request, pk):
 
-        event = Event.objects.get(pk=pk)
-        event.event_name = request.data["event_name"]
-        
-        game = Game.objects.get(pk=request.data["game"])
-        event.game = game
-        event.save()
+        ticket = IssueGameTicket.objects.get(pk=pk)
+        ticket.issue_title = request.data["issue_title"]
+        ticket.bug_description = request.data["bug_description"]
+        ticket.save()
 
         return Response(None, status=status.HTTP_204_NO_CONTENT)
     
     def destroy(self, request, pk):
-        event = Event.objects.get(pk=pk)
-        event.delete()
+        ticket = IssueGameTicket.objects.get(pk=pk)
+        ticket.delete()
         return Response(None, status=status.HTTP_204_NO_CONTENT)
 
-# class EventHostSerializer(serializers.ModelSerializer):
-#     """JSON serializer for games
-#     """
-#     class Meta:
-#         model = Gamer
-#         fields = ('id', 'user_name', 'bio')
 
+class QaTicketSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = User
+        fields = ('id', 'email', 'first_name', 'last_name', 'username')
+
+class GameSerializer(serializers.ModelSerializer):
+    class Meta:
+        model = Game
+        fields = ('id', 'title')
 
 class GameTicketSerializer(serializers.ModelSerializer):
+    game = GameSerializer(many=False)
+    qa = QaTicketSerializer(many=False)
     class Meta:
         model = IssueGameTicket
-        fields = ('id', 'game', 'issue_title', 'bug_description', 'expected_result', 'repeat_step')
+        fields = ('id', 'qa', 'game', 'issue_title', 'bug_description', 'expected_result', 'repeat_step')

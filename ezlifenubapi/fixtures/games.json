@@ -36,56 +36,56 @@
     },
     {
         "model": "ezlifenubapi.Game",
-        "pk": 5,
+        "pk": 6,
         "fields": {
             "title": "Duty and Kings"
         }
     },
     {
         "model": "ezlifenubapi.Game",
-        "pk": 6,
+        "pk": 7,
         "fields": {
             "title": "Farchase"
         }
     },
     {
         "model": "ezlifenubapi.Game",
-        "pk": 7,
+        "pk": 8,
         "fields": {
             "title": "Crystalmind"
         }
     },
     {
         "model": "ezlifenubapi.Game",
-        "pk": 8,
+        "pk": 9,
         "fields": {
             "title": "Counter of Immunity"
         }
     },
     {
         "model": "ezlifenubapi.Game",
-        "pk": 9,
+        "pk": 10,
         "fields": {
             "title": "Clouddude"
         }
     },
     {
         "model": "ezlifenubapi.Game",
-        "pk": 10,
+        "pk": 11,
         "fields": {
             "title": "Demonreign"
         }
     },
     {
         "model": "ezlifenubapi.Game",
-        "pk": 11,
+        "pk": 12,
         "fields": {
             "title": "Fusionblaze"
         }
     },
     {
         "model": "ezlifenubapi.Game",
-        "pk": 12,
+        "pk": 13,
         "fields": {
             "title": "Masterhunt"
         }
