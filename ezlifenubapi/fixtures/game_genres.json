@@ -1,6 +1,6 @@
 [
     {
-        "model": "ezlifenubapi.game_genre",
+        "model": "ezlifenubapi.GameGenre",
         "pk": 1,
         "fields": {
             "game": 1,
@@ -8,7 +8,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.game_genre",
+        "model": "ezlifenubapi.GameGenre",
         "pk": 2,
         "fields": {
             "game": 1,
@@ -16,7 +16,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.game_genre",
+        "model": "ezlifenubapi.GameGenre",
         "pk": 3,
         "fields": {
             "game": 2,
@@ -24,7 +24,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.game_genre",
+        "model": "ezlifenubapi.GameGenre",
         "pk": 4,
         "fields": {
             "game": 2,
@@ -32,7 +32,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.game_genre",
+        "model": "ezlifenubapi.GameGenre",
         "pk": 5,
         "fields": {
             "game": 2,
@@ -40,7 +40,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.game_genre",
+        "model": "ezlifenubapi.GameGenre",
         "pk": 6,
         "fields": {
             "game": 9,
@@ -48,7 +48,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.game_genre",
+        "model": "ezlifenubapi.GameGenre",
         "pk": 7,
         "fields": {
             "game": 9,
@@ -56,7 +56,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.game_genre",
+        "model": "ezlifenubapi.GameGenre",
         "pk": 8,
         "fields": {
             "game": 9,
@@ -64,7 +64,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.game_genre",
+        "model": "ezlifenubapi.GameGenre",
         "pk": 9,
         "fields": {
             "game": 10,
@@ -72,7 +72,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.game_genre",
+        "model": "ezlifenubapi.GameGenre",
         "pk": 10,
         "fields": {
             "game": 10,
@@ -80,7 +80,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.game_genre",
+        "model": "ezlifenubapi.GameGenre",
         "pk": 11,
         "fields": {
             "game": 3,
@@ -88,7 +88,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.game_genre",
+        "model": "ezlifenubapi.GameGenre",
         "pk": 12,
         "fields": {
             "game": 8,
@@ -96,7 +96,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.game_genre",
+        "model": "ezlifenubapi.GameGenre",
         "pk": 13,
         "fields": {
             "game": 8,
@@ -104,7 +104,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.game_genre",
+        "model": "ezlifenubapi.GameGenre",
         "pk": 14,
         "fields": {
             "game": 4,
@@ -112,7 +112,7 @@
         }
     },
     {
-        "model": "ezlifenubapi.game_genre",
+        "model": "ezlifenubapi.GameGenre",
         "pk": 15,
         "fields": {
             "game": 4,

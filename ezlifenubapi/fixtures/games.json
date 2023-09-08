@@ -1,105 +1,92 @@
 [
     {
-        "model": "ezlifenubapi.game",
+        "model": "ezlifenubapi.Game",
         "pk": 1,
         "fields": {
-            "genres": [],
             "title": "Fire"
         }
     },
     {
-        "model": "ezlifenubapi.game",
+        "model": "ezlifenubapi.Game",
         "pk": 2,
         "fields": {
-            "genres": [],
             "title": "Water"
         }
     },
     {
-        "model": "ezlifenubapi.game",
+        "model": "ezlifenubapi.Game",
         "pk": 3,
         "fields": {
-            "genres": [],
             "title": "Earth"
         }
     },
     {
-        "model": "ezlifenubapi.game",
+        "model": "ezlifenubapi.Game",
         "pk": 4,
         "fields": {
-            "genres": [],
             "title": "Egg"
         }
     },
     {
-        "model": "ezlifenubapi.game",
+        "model": "ezlifenubapi.Game",
         "pk": 5,
         "fields": {
-            "genres": [],
             "title": "Counter of Immunity"
         }
     },
     {
-        "model": "ezlifenubapi.game",
-        "pk": 5,
+        "model": "ezlifenubapi.Game",
+        "pk": 6,
         "fields": {
-            "genres": [],
             "title": "Duty and Kings"
         }
     },
     {
-        "model": "ezlifenubapi.game",
-        "pk": 6,
+        "model": "ezlifenubapi.Game",
+        "pk": 7,
         "fields": {
-            "genres": [],
             "title": "Farchase"
         }
     },
     {
-        "model": "ezlifenubapi.game",
-        "pk": 7,
+        "model": "ezlifenubapi.Game",
+        "pk": 8,
         "fields": {
-            "genres": [],
             "title": "Crystalmind"
         }
     },
     {
-        "model": "ezlifenubapi.game",
-        "pk": 8,
+        "model": "ezlifenubapi.Game",
+        "pk": 9,
         "fields": {
-            "genres": [],
             "title": "Counter of Immunity"
         }
     },
     {
-        "model": "ezlifenubapi.game",
-        "pk": 9,
+        "model": "ezlifenubapi.Game",
+        "pk": 10,
         "fields": {
-            "genres": [],
             "title": "Clouddude"
         }
     },
     {
-        "model": "ezlifenubapi.game",
-        "pk": 10,
+        "model": "ezlifenubapi.Game",
+        "pk": 11,
         "fields": {
-            "genres": [],
             "title": "Demonreign"
         }
     },
     {
-        "model": "ezlifenubapi.game",
-        "pk": 11,
+        "model": "ezlifenubapi.Game",
+        "pk": 12,
         "fields": {
-            "genres": [],
             "title": "Fusionblaze"
         }
     },
     {
-        "model": "ezlifenubapi.game",
-        "pk": 12,
+        "model": "ezlifenubapi.Game",
+        "pk": 13,
         "fields": {
-            "genres": [],
             "title": "Masterhunt"
         }
     }

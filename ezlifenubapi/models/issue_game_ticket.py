@@ -2,7 +2,7 @@ from django.db import models
 from django.contrib.auth.models import User
 
 class IssueGameTicket(models.Model):
-    qa_id = models.ForeignKey(User, on_delete=models.CASCADE, related_name='qa_testers')
+    qa = models.ForeignKey(User, on_delete=models.CASCADE, related_name='qa_testers')
     game = models.ForeignKey("Game", on_delete=models.CASCADE, related_name='game_issues')
     issue_title = models.CharField(max_length=75)
     bug_description = models.TextField()

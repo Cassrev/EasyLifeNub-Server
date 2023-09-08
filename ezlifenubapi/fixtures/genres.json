@@ -1,118 +1,118 @@
 [
     {
-        "model": "ezlifenubapi.genre",
+        "model": "ezlifenubapi.Genre",
         "pk": 1,
         "fields": {
             "name": "Strategic"
         }
     },
     {
-        "model": "ezlifenubapi.genre",
+        "model": "ezlifenubapi.Genre",
         "pk": 2,
         "fields": {
             "name": "Sci-fi"
         }
     },
     {
-        "model": "ezlifenubapi.genre",
+        "model": "ezlifenubapi.Genre",
         "pk": 3,
         "fields": {
             "name": "Role-playing"
         }
     },
     {
-        "model": "ezlifenubapi.genre",
+        "model": "ezlifenubapi.Genre",
         "pk": 4,
         "fields": {
             "name": "Survival"
         }
     },
     {
-        "model": "ezlifenubapi.genre",
+        "model": "ezlifenubapi.Genre",
         "pk": 5,
         "fields": {
             "name": "Shooter"
         }
     },
     {
-        "model": "ezlifenubapi.genre",
+        "model": "ezlifenubapi.Genre",
         "pk": 6,
         "fields": {
             "name": "Simulation"
         }
     },
     {
-        "model": "ezlifenubapi.genre",
+        "model": "ezlifenubapi.Genre",
         "pk": 7,
         "fields": {
             "name": "Sports"
         }
     },
     {
-        "model": "ezlifenubapi.genre",
+        "model": "ezlifenubapi.Genre",
         "pk": 8,
         "fields": {
             "name": "Adventure"
         }
     },
     {
-        "model": "ezlifenubapi.genre",
+        "model": "ezlifenubapi.Genre",
         "pk": 9,
         "fields": {
             "name": "Sandbox"
         }
     },
     {
-        "model": "ezlifenubapi.genre",
+        "model": "ezlifenubapi.Genre",
         "pk": 10,
         "fields": {
             "name": "Puzzle"
         }
     },
     {
-        "model": "ezlifenubapi.genre",
+        "model": "ezlifenubapi.Genre",
         "pk": 11,
         "fields": {
             "name": "Cooking"
         }
     },
     {
-        "model": "ezlifenubapi.genre",
+        "model": "ezlifenubapi.Genre",
         "pk": 12,
         "fields": {
             "name": "Painting"
         }
     },
     {
-        "model": "ezlifenubapi.genre",
+        "model": "ezlifenubapi.Genre",
         "pk": 13,
         "fields": {
             "name": "Multiplayer"
         }
     },
     {
-        "model": "ezlifenubapi.genre",
+        "model": "ezlifenubapi.Genre",
         "pk": 14,
         "fields": {
             "name": "Dancing"
         }
     },
     {
-        "model": "ezlifenubapi.genre",
+        "model": "ezlifenubapi.Genre",
         "pk": 15,
         "fields": {
             "name": "City Builder"
         }
     },
     {
-        "model": "ezlifenubapi.genre",
+        "model": "ezlifenubapi.Genre",
         "pk": 16,
         "fields": {
             "name": "Horror"
         }
     },
     {
-        "model": "ezlifenubapi.genre",
+        "model": "ezlifenubapi.Genre",
         "pk": 17,
         "fields": {
             "name": "Platformer"
