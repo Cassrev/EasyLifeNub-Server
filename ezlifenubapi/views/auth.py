@@ -10,10 +10,10 @@ from rest_framework.response import Response
 @api_view(['POST'])
 @permission_classes([AllowAny])
 def login_user(request):
-    email = request.data['email']
+    username = request.data['username']
     password = request.data['password']
 
-    authenticated_user = authenticate(username=email, password=password)
+    authenticated_user = authenticate(username=username, password=password)
 
     if authenticated_user is not None:
         token = Token.objects.get(user=authenticated_user)
@@ -30,27 +30,54 @@ def login_user(request):
 @api_view(['POST'])
 @permission_classes([AllowAny])
 def register_user(request):
-    email = request.data.get('email')
-    password = request.data.get('password')
+    email = request.data.get('email', None)
+    username = request.data.get('username', None)
+    first_name = request.data.get('first_name', None)
+    last_name = request.data.get('last_name', None)
+    password = request.data.get('password', None)
 
-    if email and password is not None:
+    if email is not None \
+        and first_name is not None \
+        and last_name is not None \
+        and password is not None:
+        if email is None:
+            return Response(
+                {'message': 'You must provide an email'},
+                status=status.HTTP_400_BAD_REQUEST
+            )
+        if first_name is None:
+            return Response(
+                {'message': 'You have a first name. Where is it?'},
+                status=status.HTTP_400_BAD_REQUEST
+            )
+        if last_name is None:
+                return Response(
+                    {'message': 'No last name.'},
+                    status=status.HTTP_400_BAD_REQUEST
+                )            
+        if password is None:
+            return Response(
+                {'message': 'You must provide a password'},
+                status=status.HTTP_400_BAD_REQUEST
+            )
+
         try:
             new_user = User.objects.create_user(
-                username=request.data['email'],
-                email=request.data['email'],
+                username=request.data['username'],
                 password=request.data['password'],
                 first_name=request.data['first_name'],
-                last_name=request.data['last_name']
+                last_name=request.data['last_name'],
+                email = request.data['email']
             )
-            new_user.is_staff = True
             new_user.save()
-            
+
         except IntegrityError:
             return Response(
                 {'message': 'An account with that email address already exists'},
                 status=status.HTTP_400_BAD_REQUEST
             )
 
-    token = Token.objects.create(user=new_user)
-    data = { 'token': token.key, 'staff': new_user.is_staff }
-    return Response(data)
+
+        token = Token.objects.create(user=new_user)
+        data = { 'token': token.key, 'staff': new_user.is_staff }
+        return Response(data)
