@@ -15,18 +15,18 @@ Including another URLconf
     2. Add a URL to urlpatterns:  path('blog/', include('blog.urls'))
 """
 from django.contrib import admin
-from django.conf import settings
-from django.conf.urls.static import static
 from django.conf.urls import include
 from django.urls import path
 from rest_framework import routers
 from ezlifenubapi.views import register_user, login_user
-from ezlifenubapi.views import GameView, GenreView, TicketView, GameGenreView
+from ezlifenubapi.views import GameView, TicketView, GameGenreView, TokenView, AppUserView
 
 router = routers.DefaultRouter(trailing_slash=False)
 router.register(r'games', GameView, 'game')
 router.register(r'gamegenres', GameGenreView, 'gamegenre')
 router.register(r'tickets', TicketView, 'ticket')
+router.register(r'users', AppUserView, 'user')
+router.register(r'tokens', TokenView, 'token')
 
 
 urlpatterns = [
@@ -34,4 +34,4 @@ urlpatterns = [
     path('login', login_user),
     path('', include(router.urls)),
     path('admin/', admin.site.urls),
-] + static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)
+]
