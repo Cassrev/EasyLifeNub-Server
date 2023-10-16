@@ -1,4 +1,3 @@
-"""View module for handling requests about game types"""
 from django.http import HttpResponseServerError
 from rest_framework.viewsets import ViewSet
 from rest_framework.response import Response
@@ -13,14 +12,19 @@ class TicketView(ViewSet):
         return Response(serializer.data)
 
     def list(self, request):
-        tickets = IssueGameTicket.objects.all()
+        user = request.user
+        tickets = IssueGameTicket.objects.filter(qa=user)
 
-        # if "game" in request.query_params:
-        #     game_id = request.query_params['game']
-        #     events = events.filter(game_id=game_id)
+        if "user" in request.query_params:
+            if request.query_params['user'] != "current":
+                pk = request.query_params['user']
+                tickets = tickets.filter(qa=pk)
+        else:
+            tickets = IssueGameTicket.objects.all()
 
         serializer = GameTicketSerializer(tickets, many=True)
         return Response(serializer.data)
+
 
     def create(self, request):
         token = request.auth
